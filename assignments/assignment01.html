@@ -1,7 +1,63 @@
-
-<img style = "width:100px;height:100px" src="/img/img1.jpg" />
-<img style = "width:100px;height:100px" src="https://via.placeholder.com/200" />
-
-
-<pre><code>&lt;!doctype html&gt;<br>&lt;html lang="en"&gt;<br>&lt;head&gt;<br>&lt;title&gt;Minimial HTML&lt;/title&gt;<br>&lt;/head&gt;<br>&lt;body&gt;<br>&lt;p&gt;Hello, world&lt;/p&gt;<br>&lt;/body&gt;<br>&lt;/html&gt;
+<html>
+   <head>
+      <style>
+         table, th, td {
+         border: 1px solid black;
+         }
+         table tr:nth-child(even) {
+         background-color: #eee;
+         }
+         table tr:nth-child(odd) {
+         background-color: #fff;
+         }
+         table th {
+         background-color: black;
+         color: white;
+         }
+         .nestedTable th{
+         background-color: red;
+         color: white;
+         }
+      </style>
+      <title>
+         Assignment 1
+      </title>
+      <table>
+         <tr>
+            <th>Description</th>
+            <th>Example</th>
+         </tr>
+         <tr>
+            <td><a href="#">Image</a></td>
+            <td><img style = "width:100px;height:100px" src="/img/img1.jpg" /></td>
+         </tr>
+         <tr>
+            <td><a href="#">Place holder image</a></td>
+            <td><img style = "width:100px;height:100px" src="https://via.placeholder.com/200" /></td>
+         </tr>
+         <tr>
+            <td><a href="#">Code tag</a></td>
+            <td>
+               <pre><code>&lt;!doctype html&gt;<br>&lt;html lang="en"&gt;<br>&lt;head&gt;<br>&lt;title&gt;Minimial HTML&lt;/title&gt;<br>&lt;/head&gt;<br>&lt;body&gt;<br>&lt;p&gt;Hello, world&lt;/p&gt;<br>&lt;/body&gt;<br>&lt;/html&gt;
 </code></pre>
+            </td>
+         </tr>
+         <tr>
+            <td><a href="#">Table</a></td>
+            <td>
+               <table >
+                  <tr class="nestedTable">
+                     <th>Header1</th>
+                     <th>Header2</th>
+                     <th>Header3</th>
+                  </tr>
+                  <tr>
+                     <td>Data1</td>
+                     <td>Data2</td>
+                     <td>Data3</td>
+                  </tr>
+               </table>
+            </td>
+         </tr>
+         <tr>
+      </table>

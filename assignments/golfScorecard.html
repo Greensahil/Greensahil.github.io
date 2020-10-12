@@ -1,295 +1,299 @@
 <!doctype html>
-
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-
-  <title>Golf ScoreCard</title>
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-<style>
-  /* center-align table columns */
-th, td {text-align: center;} 
-
-.yellow{
-  background-color:yellow !important;
-}
-</style>
-</head>
-
-<body>
-
-
-<h1>Golf Scorecard</h1>
-<table class="table table-striped">
-  <tr id="0">
-    <th>Hole</th>
-    <th>Par</th>
-    <th>Score</th>
-    <th>Over</th>
-    <th>Actions</th>
-   
-  </tr>
-  <tr id="1">
-    <td>1</td>
-    <td>4</td>
-    <td>-</td>
-    <td>-</td>
-    <td><button class="btn btn-success">+</button><button class="btn btn-danger ml-2">-</button>
-      <button class="btn btn-warning">clear</button>
-    </td>
-  
-  </tr>
-  <tr id="2">
-    <td>2</td>
-    <td>4</td>
-    <td>-</td>
-    <td>-</td>
-    <td><button class="btn btn-success">+</button><button class="btn btn-danger ml-2">-</button>
-      <button class="btn btn-warning">clear</button></td>
-  </tr>
-  <tr id="3">
-    <td>3</td>
-    <td>4</td>
-    <td>-</td>
-    <td>-</td>
-    <td><button class="btn btn-success">+</button><button class="btn btn-danger ml-2">-</button>
-      <button class="btn btn-warning">clear</button></td>
-  </tr>
-  <tr id="4">
-    <td>4</td>
-    <td>4</td>
-    <td>-</td>
-    <td>-</td>
-    <td><button class="btn btn-success">+</button><button class="btn btn-danger ml-2">-</button>
-      <button class="btn btn-warning">clear</button></td>
-  </tr>
-  <tr id="5">
-    <td>5</td>
-    <td>4</td>
-    <td>-</td>
-    <td>-</td>
-    <td><button class="btn btn-success">+</button><button class="btn btn-danger ml-2">-</button>
-      <button class="btn btn-warning">clear</button></td>
-  </tr>
-  <tr id="6">
-    <td>6</td>
-    <td>4</td>
-    <td>-</td>
-    <td>-</td>
-    <td><button class="btn btn-success">+</button><button class="btn btn-danger ml-2">-</button>
-      <button class="btn btn-warning">clear</button></td>
-  </tr>
-  <tr id="7">
-    <td>7</td>
-    <td>4</td>
-    <td>-</td>
-    <td>-</td>
-    <td><button class="btn btn-success">+</button><button class="btn btn-danger ml-2">-</button>
-      <button class="btn btn-warning">clear</button></td>
-  </tr>
-  <tr id="8">
-    <td>8</td>
-    <td>4</td>
-    <td>-</td>
-    <td>-</td>
-    <td><button class="btn btn-success">+</button><button class="btn btn-danger ml-2">-</button>
-      <button class="btn btn-warning">clear</button></td>
-  </tr>
-  <tr id="9">
-    <td>9</td>
-    <td>4</td>
-    <td>-</td>
-    <td>-</td>
-    <td><button class="btn btn-success">+</button><button class="btn btn-danger ml-2">-</button>
-      <button class="btn btn-warning">clear</button></td>
-  </tr>
-  <tr id="10">
-    <td>10</td>
-    <td>4</td>
-    <td>-</td>
-    <td>-</td>
-    <td><button class="btn btn-success">+</button><button class="btn btn-danger ml-2">-</button>
-      <button class="btn btn-warning">clear</button></td>
-  </tr>
-  <tr id="11">
-    <td>11</td>
-    <td>4</td>
-    <td>-</td>
-    <td>-</td>
-    <td><button class="btn btn-success">+</button><button class="btn btn-danger ml-2">-</button>
-      <button class="btn btn-warning">clear</button></td>
-  </tr>
-  <tr id="12">
-    <td>12</td>
-    <td>4</td>
-    <td>-</td>
-    <td>-</td>
-    <td><button class="btn btn-success">+</button><button class="btn btn-danger ml-2">-</button>
-      <button class="btn btn-warning">clear</button></td>
-  </tr>
-  <tr id="13">
-    <td>13</td>
-    <td>4</td>
-    <td>-</td>
-    <td>-</td>
-    <td><button class="btn btn-success">+</button><button class="btn btn-danger ml-2">-</button>
-      <button class="btn btn-warning">clear</button></td>
-  </tr>
-  <tr id="14">
-    <td>14</td>
-    <td>4</td>
-    <td>-</td>
-    <td>-</td>
-    <td><<button class="btn btn-success">+</button><button class="btn btn-danger ml-2">-</button>
-      <button class="btn btn-warning">clear</button></td>
-  </tr>
-  <tr id="15">
-    <td>15</td>
-    <td>4</td>
-    <td>-</td>
-    <td>-</td>
-    <td><button class="btn btn-success">+</button><button class="btn btn-danger ml-2">-</button>
-      <button class="btn btn-warning">clear</button></td>
-  </tr>
-  <tr id="16">
-    <td>16</td>
-    <td>4</td>
-    <td>-</td>
-    <td>-</td>
-    <td><button class="btn btn-success">+</button><button class="btn btn-danger ml-2">-</button>
-      <button class="btn btn-warning">clear</button></td>
-  </tr>
-  <tr id="17">
-    <td>17</td>
-    <td>4</td>
-    <td>-</td>
-    <td>-</td>
-    <td><button class="btn btn-success">+</button><button class="btn btn-danger ml-2">-</button>
-      <button class="btn btn-warning">clear</button></td>
-  </tr>
-  <tr id="18">
-    <td>18</td>
-    <td>4</td>
-    <td>-</td>
-    <td>-</td>
-    <td><button class="btn btn-success">+</button> <button class="btn btn-danger">-</button><button class="btn btn-warning">clear</button></td>
-  </tr>
-  <tr id="totals">
-    <td id="allTotal">TOTALS</td>
-    <td id="parTotal">-</td>
-    <td id="scoreTotal">-</td>
-    <td id="overTotal">-</td>
-    <td id="NA"></td>
-  </tr>
-</table>
-
-
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script>
-let elem = [];
-// assign the entire table row for hole 1 to a variable, elem
-
-
-
-// display the number of children (all td elements)
-// console.log(elem.children.length);
-// display the content of the + button, which is the first child of the fifth element
-// console.log(elem.children[4].children[0]); 
-
-/* your mission: 
-
-1. Make all the + buttons add 1 to the score of the hole. Do not allow the score to exceed double the par. 
-2. Make all the - buttons subtract 1 from the score of the hole. Do not allow the score to be negative!
-
-*/
-for(let i =1;i<19;i++){
-  elem[i] = document.getElementById(i);
-  elem[i].children[4].children[0].onclick 
-  = function(){add1(elem[i]);};
-  
-  elem[i].children[4].children[1].onclick 
-  = function(){sub1(elem[i]);};
-  
-  elem[i].children[4].children[2].onclick 
-  = function(){clear(elem[i]);};
-}
-
-// create an "add1" function
-function add1 (elem) {
-  //      alert("yellow")
-  elem.className = "yellow";
-  if(elem.children[2].innerHTML == "-") {
-     elem.children[2].innerHTML = "1";
-     elem.children[3].innerHTML = "-3";
-  }
-  else {
-    let currentScore = elem.children[2].innerHTML;
-    currentScore = Number.parseInt(currentScore);
-    elem.children[2].innerHTML = currentScore + 1;
-    elem.children[3].innerHTML = (currentScore + 1) - 4;
-  }
-  updateTotals()
-}
-function sub1 (elem) {
-  if(elem.children[2].innerHTML == "-") 
-    elem.children[2].innerHTML = "0";
-  else {
-    let currentScore = elem.children[2].innerHTML;
-    currentScore = Number.parseInt(currentScore);
-    if(currentScore > 0){
-      console.log(currentScore)
-      if(currentScore-1 == 0){
-        
-        elem.classList.remove("yellow");
-      }
-      elem.children[2].innerHTML = currentScore - 1;
-      elem.children[3].innerHTML = (currentScore -1) -4;
-    }
-    else{
-       elem.classList.remove("yellow");
-    }
-    
-
-  }
-  updateTotals()
-}
-
-function clear(elem){
-  elem.children[2].innerHTML = "-"
-  elem.children[3].innerHTML = "-"
-  elem.classList.remove("yellow");
-  updateTotals()
-}
-function updateTotals(){
-  let totalPar= 0;
-  let totalScore = 0;
-  let totalOver = 0;
-  document.querySelectorAll(".yellow").forEach(function(yellowRows){
-     totalPar = totalPar + parseInt(yellowRows.children[1].innerHTML);
-     totalScore = totalScore + parseInt(yellowRows.children[2].innerHTML);
-     totalOver = totalOver + parseInt(yellowRows.children[3].innerHTML);
-  });
-  document.getElementById("parTotal").innerHTML=totalPar
-  document.getElementById("scoreTotal").innerHTML=totalScore
-  document.getElementById("overTotal").innerHTML=totalOver
-  //console.log(totaPar)
-}
-/* your mission: 
-3. Make the "Over" column display the difference, score - par, of the hole.
-4. Make a table row's background color yellow if and only if that table row has a nonzero score.
-5. Make the HTML table row with id="totals" display appropriate totals. Totals should be computed only for holes that have yellow-highlighted nonzero scores. Like the yellow-highlighted table rows above, the "totals" table row background color must be yellow if and only if it has a nonzero score. 
-6. Add to the Action column a new button, C, which clears the current score for a given hole, and re-sets the table row background color to default.
-7. Replace HTML table row code with JavaScript code that appends table rows. That is, delete the HTML elements with ID's 1 through 18, and write a function that loops 18 times, appending the appropriate DOM elements with ID's 1 through 18.  
-8. Add a "RESET" button which clears all user-entered data. Use addEventListener method to add functionality to the button. See: https://www.w3schools.com/js/js_htmldom_eventlistener.asp. 
-9. Add an "ABOUT" button which displays the message, "Golf Scorecard 1.0. All rights reserved."  Use an arrow function to add the "ABOUT" button to the DOM. See: https://www.w3schools.com/Js/js_arrow_function.asp.
-10. Add a "FONT" button which toggles the font size of the entire app, from/to smaller to/from larger.
-*. Advanced (optional): put circles around scores that are birdies, and squares around scores that are bogeys!
-*/
-
-</script>
-</body>
+   <head>
+      <meta charset="utf-8">
+      <title>Golf ScoreCard</title>
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <style>
+         /* center-align table columns */
+         th, td {text-align: center;} 
+         .yellow{
+         background-color:yellow !important;
+         }
+      </style>
+   </head>
+   <body>
+      <h1>Golf Scorecard</h1>
+      <table class="table table-striped">
+         <tr id="0">
+            <th>Hole</th>
+            <th>Par</th>
+            <th>Score</th>
+            <th>Over</th>
+            <th>Actions</th>
+         </tr>
+         <tr id="1">
+            <td>1</td>
+            <td>4</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button class="btn btn-success">+</button><button class="btn btn-danger ml-2">-</button>
+               <button class="btn btn-warning">clear</button>
+            </td>
+         </tr>
+         <tr id="2">
+            <td>2</td>
+            <td>4</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button class="btn btn-success">+</button><button class="btn btn-danger ml-2">-</button>
+               <button class="btn btn-warning">clear</button>
+            </td>
+         </tr>
+         <tr id="3">
+            <td>3</td>
+            <td>4</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button class="btn btn-success">+</button><button class="btn btn-danger ml-2">-</button>
+               <button class="btn btn-warning">clear</button>
+            </td>
+         </tr>
+         <tr id="4">
+            <td>4</td>
+            <td>4</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button class="btn btn-success">+</button><button class="btn btn-danger ml-2">-</button>
+               <button class="btn btn-warning">clear</button>
+            </td>
+         </tr>
+         <tr id="5">
+            <td>5</td>
+            <td>4</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button class="btn btn-success">+</button><button class="btn btn-danger ml-2">-</button>
+               <button class="btn btn-warning">clear</button>
+            </td>
+         </tr>
+         <tr id="6">
+            <td>6</td>
+            <td>4</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button class="btn btn-success">+</button><button class="btn btn-danger ml-2">-</button>
+               <button class="btn btn-warning">clear</button>
+            </td>
+         </tr>
+         <tr id="7">
+            <td>7</td>
+            <td>4</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button class="btn btn-success">+</button><button class="btn btn-danger ml-2">-</button>
+               <button class="btn btn-warning">clear</button>
+            </td>
+         </tr>
+         <tr id="8">
+            <td>8</td>
+            <td>4</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button class="btn btn-success">+</button><button class="btn btn-danger ml-2">-</button>
+               <button class="btn btn-warning">clear</button>
+            </td>
+         </tr>
+         <tr id="9">
+            <td>9</td>
+            <td>4</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button class="btn btn-success">+</button><button class="btn btn-danger ml-2">-</button>
+               <button class="btn btn-warning">clear</button>
+            </td>
+         </tr>
+         <tr id="10">
+            <td>10</td>
+            <td>4</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button class="btn btn-success">+</button><button class="btn btn-danger ml-2">-</button>
+               <button class="btn btn-warning">clear</button>
+            </td>
+         </tr>
+         <tr id="11">
+            <td>11</td>
+            <td>4</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button class="btn btn-success">+</button><button class="btn btn-danger ml-2">-</button>
+               <button class="btn btn-warning">clear</button>
+            </td>
+         </tr>
+         <tr id="12">
+            <td>12</td>
+            <td>4</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button class="btn btn-success">+</button><button class="btn btn-danger ml-2">-</button>
+               <button class="btn btn-warning">clear</button>
+            </td>
+         </tr>
+         <tr id="13">
+            <td>13</td>
+            <td>4</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button class="btn btn-success">+</button><button class="btn btn-danger ml-2">-</button>
+               <button class="btn btn-warning">clear</button>
+            </td>
+         </tr>
+         <tr id="14">
+            <td>14</td>
+            <td>4</td>
+            <td>-</td>
+            <td>-</td>
+            <td><<button class="btn btn-success">+</button><button class="btn btn-danger ml-2">-</button>
+               <button class="btn btn-warning">clear</button>
+            </td>
+         </tr>
+         <tr id="15">
+            <td>15</td>
+            <td>4</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button class="btn btn-success">+</button><button class="btn btn-danger ml-2">-</button>
+               <button class="btn btn-warning">clear</button>
+            </td>
+         </tr>
+         <tr id="16">
+            <td>16</td>
+            <td>4</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button class="btn btn-success">+</button><button class="btn btn-danger ml-2">-</button>
+               <button class="btn btn-warning">clear</button>
+            </td>
+         </tr>
+         <tr id="17">
+            <td>17</td>
+            <td>4</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button class="btn btn-success">+</button><button class="btn btn-danger ml-2">-</button>
+               <button class="btn btn-warning">clear</button>
+            </td>
+         </tr>
+         <tr id="18">
+            <td>18</td>
+            <td>4</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button class="btn btn-success">+</button> <button class="btn btn-danger">-</button><button class="btn btn-warning">clear</button></td>
+         </tr>
+         <tr id="totals">
+            <td id="allTotal">TOTALS</td>
+            <td id="parTotal">-</td>
+            <td id="scoreTotal">-</td>
+            <td id="overTotal">-</td>
+            <td id="NA"></td>
+         </tr>
+      </table>
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <script>
+         let elem = [];
+         // assign the entire table row for hole 1 to a variable, elem
+         
+         
+         
+         // display the number of children (all td elements)
+         // console.log(elem.children.length);
+         // display the content of the + button, which is the first child of the fifth element
+         // console.log(elem.children[4].children[0]); 
+         
+         /* your mission: 
+         
+         1. Make all the + buttons add 1 to the score of the hole. Do not allow the score to exceed double the par. 
+         2. Make all the - buttons subtract 1 from the score of the hole. Do not allow the score to be negative!
+         
+         */
+         for(let i =1;i<19;i++){
+           elem[i] = document.getElementById(i);
+           elem[i].children[4].children[0].onclick 
+           = function(){add1(elem[i]);};
+           
+           elem[i].children[4].children[1].onclick 
+           = function(){sub1(elem[i]);};
+           
+           elem[i].children[4].children[2].onclick 
+           = function(){clear(elem[i]);};
+         }
+         
+         // create an "add1" function
+         function add1 (elem) {
+           //      alert("yellow")
+           elem.className = "yellow";
+           if(elem.children[2].innerHTML == "-") {
+              elem.children[2].innerHTML = "1";
+              elem.children[3].innerHTML = "-3";
+           }
+           else {
+             let currentScore = elem.children[2].innerHTML;
+             currentScore = Number.parseInt(currentScore);
+             elem.children[2].innerHTML = currentScore + 1;
+             elem.children[3].innerHTML = (currentScore + 1) - 4;
+           }
+           updateTotals()
+         }
+         function sub1 (elem) {
+           if(elem.children[2].innerHTML == "-") 
+             elem.children[2].innerHTML = "0";
+           else {
+             let currentScore = elem.children[2].innerHTML;
+             currentScore = Number.parseInt(currentScore);
+             if(currentScore > 0){
+               console.log(currentScore)
+               if(currentScore-1 == 0){
+                 
+                 elem.classList.remove("yellow");
+               }
+               elem.children[2].innerHTML = currentScore - 1;
+               elem.children[3].innerHTML = (currentScore -1) -4;
+             }
+             else{
+                elem.classList.remove("yellow");
+             }
+             
+         
+           }
+           updateTotals()
+         }
+         
+         function clear(elem){
+           elem.children[2].innerHTML = "-"
+           elem.children[3].innerHTML = "-"
+           elem.classList.remove("yellow");
+           updateTotals()
+         }
+         function updateTotals(){
+           let totalPar= 0;
+           let totalScore = 0;
+           let totalOver = 0;
+           document.querySelectorAll(".yellow").forEach(function(yellowRows){
+              totalPar = totalPar + parseInt(yellowRows.children[1].innerHTML);
+              totalScore = totalScore + parseInt(yellowRows.children[2].innerHTML);
+              totalOver = totalOver + parseInt(yellowRows.children[3].innerHTML);
+           });
+           document.getElementById("parTotal").innerHTML=totalPar
+           document.getElementById("scoreTotal").innerHTML=totalScore
+           document.getElementById("overTotal").innerHTML=totalOver
+           //console.log(totaPar)
+         }
+         /* your mission: 
+         3. Make the "Over" column display the difference, score - par, of the hole.
+         4. Make a table row's background color yellow if and only if that table row has a nonzero score.
+         5. Make the HTML table row with id="totals" display appropriate totals. Totals should be computed only for holes that have yellow-highlighted nonzero scores. Like the yellow-highlighted table rows above, the "totals" table row background color must be yellow if and only if it has a nonzero score. 
+         6. Add to the Action column a new button, C, which clears the current score for a given hole, and re-sets the table row background color to default.
+         7. Replace HTML table row code with JavaScript code that appends table rows. That is, delete the HTML elements with ID's 1 through 18, and write a function that loops 18 times, appending the appropriate DOM elements with ID's 1 through 18.  
+         8. Add a "RESET" button which clears all user-entered data. Use addEventListener method to add functionality to the button. See: https://www.w3schools.com/js/js_htmldom_eventlistener.asp. 
+         9. Add an "ABOUT" button which displays the message, "Golf Scorecard 1.0. All rights reserved."  Use an arrow function to add the "ABOUT" button to the DOM. See: https://www.w3schools.com/Js/js_arrow_function.asp.
+         10. Add a "FONT" button which toggles the font size of the entire app, from/to smaller to/from larger.
+         *. Advanced (optional): put circles around scores that are birdies, and squares around scores that are bogeys!
+         */
+         
+      </script>
+   </body>
 </html>

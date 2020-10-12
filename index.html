@@ -1,66 +1,138 @@
 <!DOCTYPE html>
-<html lang= "en">
-   <head>
-      <style>
-         table, th, td {
-         border: 1px solid black;
-         }
-         table tr:nth-child(even) { <! -- Setting all even table rows to gray -->
-         background-color: #eee;
-         }
-         table tr:nth-child(odd) {  <! -- Setting all even table rows to white -->
-         background-color: #fff;
-         }
-         table th {
-         background-color: black;
-         color: white;
-         }
-      </style>
-      <title>
-         Sahil's Website
-      </title>
-   <body>
-      <h1 style="text-align:center">Sahil's Home Page</h1>
-      <a href="https://greensahil.github.io/">GitHub Pages</a> | 
-      <a href="http://webp.svsu.edu/~ssharma2/">mDrive</a> | 
-      <a href="https://csis.svsu.edu/~ssharma2/">CSIS server</a> 
-      <br />
-      <br />
-      <hr>
-      <h2>Assignments</h2>
-      <table>  <! -- Table for course assignment -->
-         <tr>
-            <th>Assignment Number</th>
-            <th>Description</th>
-         </tr>
-         <tr>
-            <td><a href="https://greensahil.github.io/assignments/assignment01.html">Assignment 01</a></td>
-            <td>Worked on various HTML tags, formatting, relative and abosulte file paths, tables etc</td>
-         </tr>
-         <tr>
-            <td><a href="https://greensahil.github.io/assignments/assignment02.html">Assignment 02</a></td>
-            <td>Worked on using classes and ids. Inline-css and regular css. Difference between absoulte, relative and fixed position elements etc</td>
-         </tr>
-         <tr>
-            <td><a href="#">Assignment 03</a></td>
-            <td>¯\_(ツ)_/¯</td>
-         </tr>
-         <tr>
-            <td><a href="#">Assignment 04</a></td>
-            <td>¯\_(ツ)_/¯</td>
-         </tr>
-         <tr>
-            <td><a href="#">Assignment 05</a></td>
-            <td>¯\_(ツ)_/¯</td>
-         </tr>
-         <tr>
-            <td><a href="#">Assignment 06</a></td>
-            <td>¯\_(ツ)_/¯</td>
-         </tr>
-         <tr>
-            <td><a href="#">Assignment 07</a></td>
-            <td>¯\_(ツ)_/¯</td>
-         </tr>
-      </table>
-   </body>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Sahil's Website</title>
+
+  <!-- Bootstrap core CSS -->
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <!-- Custom styles for this template -->
+  <link href="css/heroic-features.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Assignment Portal</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- Jumbotron Header -->
+    <header class="jumbotron my-4">
+      <h1 class="display-3">This page contains my assignments for CS216 class.</p></h1>
+    <h4>This page has been replicated in 3 servers:
+    </h4>
+    <a href="https://greensahil.github.io/"><button class="btn btn-success">GitHub Pages</button></a> 
+    <a href="http://webp.svsu.edu/~ssharma2/"><button class="btn btn-success">mDrive</button></a>  
+      <a href="https://csis.svsu.edu/~ssharma2/"><button class="btn btn-success">CSIS server</button></a>
+    </header>
+    
+
+    <!-- Page Features -->
+    <div class="row text-center">
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="http://placehold.it/500x325" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Assignment 1</h4>
+            <p class="card-text">Worked on various HTML tags, formatting, relative and abosulte file paths, tables etc,</p>
+          </div>
+          <div class="card-footer">
+            <a href="https://greensahil.github.io/assignments/assignment01.html"><button class="btn btn-primary">View Assignment 01</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="http://placehold.it/500x325" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Assignment 2</h4>
+            <p class="card-text">Worked on using classes and ids. Inline-css and regular css. Difference between absoulte, relative and fixed position elements etc.</p>
+          </div>
+          <div class="card-footer">
+                        <a href="https://greensahil.github.io/assignments/assignment02.html"><button class="btn btn-primary">View Assignment 02</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="http://placehold.it/500x325" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Assignment 3</h4>
+            <p class="card-text">Reorganized Github and modified code</p>
+          </div>
+          <div class="card-footer">
+              <a href="https://greensahil.github.io/assignments/assignment03.html"><button class="btn btn-primary">View Assignment 03</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="http://placehold.it/500x325" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Assignment 4</h4>
+            <p class="card-text">¯\_(ツ)_/¯</p>
+          </div>
+          <div class="card-footer">
+             <a href="https://greensahil.github.io/assignments/assignment03.html"><button class="btn btn-warning" disabled>View Assignment 04</button></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- /.row -->
+      <h4>Current progress with assignments for CS216</h4>
+      <div class="progress mb-3">
+  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 43%">3 assignments completed out of 7 assignments</div>
+</div>
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2020</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</body>
+
 </html>

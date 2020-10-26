@@ -27,7 +27,7 @@ clubDistanceEntry.html
 
 
 // ----- Functions (clubDistanceList.html) -----
-
+console.log(`here`)
 // initialize "clubs" array
 function loadClubDistances() {
 	let clubs;

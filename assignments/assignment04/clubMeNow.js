@@ -99,6 +99,15 @@ function undoLastShot() {
    window.location.href = "clubDistanceList.html";     
 }
 
+function addClub(){
+	let currentClubList = localStorage.getItem("clubs");
+	console.log(currentClubList);
+	//let lastSortNumberInTheArray = currentClubLis
+	//for(let item of currentClubList){
+	    	
+	//}
+}
+
 // create a new (default) "clubs" array
 function resetAllClubDistances() {
 	// create 2d global array, called "clubs" throughout app

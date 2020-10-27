@@ -46,6 +46,7 @@ function loadClubDistances() {
 // append one row to HTML table for each row in "clubs" array
 function appendTableRows() {
 	// select the HTML table <tbody> element
+	clubs = loadClubDistances();
 	let tblbody = document.getElementById('clubTable').children[0]; 
 	// append one row to HTML table for each row in "clubs" array
 	for (let i = 0; i < clubs.length; i++) {
